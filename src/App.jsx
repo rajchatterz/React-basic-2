@@ -5,6 +5,8 @@ import './App.css'
 import Event from './components/Event'
 import Object from './components/Object'
 import Form from './components/Form'
+import Dynamic from './components/DynamicInput'
+import RestApi from './components/RestApi'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,7 +15,9 @@ function App() {
     <div>
       {/* <Event/> */}
       {/* <Object/> */}
-      <Form/>
+      {/* <Form/> */}
+      {/* <Dynamic/> */}
+      <RestApi/>
     </div>
   )
 }
