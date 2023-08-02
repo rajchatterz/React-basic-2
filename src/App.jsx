@@ -4,15 +4,17 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Event from './components/Event'
 import Object from './components/Object'
+import Form from './components/Form'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <div>
       {/* <Event/> */}
-      <Object/>
-    </>
+      {/* <Object/> */}
+      <Form/>
+    </div>
   )
 }
 
